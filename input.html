@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" >
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <title>Evenements input</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+
+    <h1>Evenements en Lamastre et Le Cheylard et environs</h1>
+    <p>Remplisez le formulaire soigneusement et decrivez bien le spectacle en commantaire et nous allons afficher votre spectacle sur le site. Merci! </p> 
+    <h1></h1>
+
+  </div>
+  <!-- <div class="row">
+    <div class="col-sm-12"> -->
+      <h3>Formulaire a remplir</h3>
+      <!-- ./ commande ruby /.  -->
+
+<form class="row" method="post" action="traitement.sinatra">
+   <p>
+       <label class="col-sm-1"for="pseudo">Nom : </label><input class="col-sm-6" type="text" name="Nom" id="Nom"/>
+   </p>
+</form>
+
+
+<form class="row" method="post" action="traitement.sinatra">
+   <p>
+       <label class="col-sm-1" for="pseudo">Prenom : </label><input class="col-sm-6" type="text" name="Prenom" id="Prenom" />
+   </p>
+</form>
+
+
+<form class="row" method="post" action="traitement.sinatra">
+   <p>
+       <label class="col-sm-1" for="pseudo">Email : </label><input class="col-sm-6" type="text" name="Email" id="Email" />
+   </p>
+</form>
+
+
+<form class="row" method="post" action="traitement.sinatra">
+   <p>
+       <label class="col-sm-1" for="pseudo">Commentaire : </label><input class="col-sm-6" type="text" name="Commentaire" id="Commentaire" />
+   </p>
+</form>
+     
+     <br> </br> 
+
+<p align="left">
+     <a href="#"button type="button" class="btn btn-default">Confirmation</button> 
+   
+  
+
+
+</body>
+</html>
